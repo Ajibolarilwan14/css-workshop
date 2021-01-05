@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .placeholder {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .placeholder:nth-child(2) {
+            background-color: green;
+        }
+
+        .placeholder:nth-child(3) {
+            background-color: red;
+        }
+
+        .placeholder:nth-child(4) {
+            background-color: yellow;
+        }
+
+        nav {
+            position: fixed;
+            background: rgba(255, 255, 255, 0.6);
+            width: 100%;
+        }
+
+        ul {
+            text-align: center;
+        }
+
+        li {
+            display: inline-block;
+            /* float: left; */
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+            padding: 12px;
+            display: block;
+        }
+
+        a:hover {
+            background: rgba(255, 255, 255, 1);
+        }
+
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Class</a></li>
+            <li><a href="#">Others</a></li>
+        </ul>
+    </nav>
+    <div class="placeholder">A</div>
+    <div class="placeholder">B</div>
+    <div class="placeholder">C</div>
+</body>
+</html>
